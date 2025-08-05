@@ -1,0 +1,8 @@
+# system feature version
+
+This project provides the frontend to the api repository (api-system-feature-version)
+
+This is one way we can think about applications, where we made a split in the parts of the application based on what systems it is made of that are grouped together in different versions. 
+
+
+define the different parts of the systems that create a modular framework to develop applications.

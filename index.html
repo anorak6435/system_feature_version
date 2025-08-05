@@ -1,0 +1,132 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>System Feature Version</title>
+
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">SFV</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/new_feature.html">New Feature</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown link
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>John</td>
+        <td>Doe</td>
+        <td>@social</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <nav>
+    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+      <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button"
+        role="tab" aria-controls="nav-home" aria-selected="true">Versions</button>
+      <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button"
+        role="tab" aria-controls="nav-profile" aria-selected="false">Profile</button>
+      <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button"
+        role="tab" aria-controls="nav-contact" aria-selected="false">Contact</button>
+      <button class="nav-link" id="nav-disabled-tab" data-bs-toggle="tab" data-bs-target="#nav-disabled" type="button"
+        role="tab" aria-controls="nav-disabled" aria-selected="false" disabled>Disabled</button>
+    </div>
+  </nav>
+  <div class="tab-content" id="nav-tabContent">
+    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+    </div>
+    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">...</div>
+    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">...</div>
+    <div class="tab-pane fade" id="nav-disabled" role="tabpanel" aria-labelledby="nav-disabled-tab" tabindex="0">...
+    </div>
+  </div>
+
+
+  <div class="d-flex align-items-start">
+    <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+      <button class="nav-link active" id="v-pills-versions-tab" data-bs-toggle="pill" data-bs-target="#v-pills-version"
+        type="button" role="tab" aria-controls="v-pills-version" aria-selected="true">Version</button>
+      <button class="nav-link" id="v-pills-features-tab" data-bs-toggle="pill" data-bs-target="#v-pills-features"
+        type="button" role="tab" aria-controls="v-pills-features" aria-selected="false">Features</button>
+      <button class="nav-link" id="v-pills-systems-tab" data-bs-toggle="pill" data-bs-target="#v-pills-systems"
+        type="button" role="tab" aria-controls="v-pills-systems" aria-selected="false">Systems</button>
+    </div>
+    <div class="tab-content" id="v-pills-tabContent">
+      <div class="tab-pane fade show active" id="v-pills-version" role="tabpanel" aria-labelledby="v-pills-versions-tab"
+        tabindex="0">...</div>
+      <div class="tab-pane fade" id="v-pills-features" role="tabpanel" aria-labelledby="v-pills-features-tab"
+        tabindex="0">...</div>
+      <div class="tab-pane fade" id="v-pills-systems" role="tabpanel" aria-labelledby="v-pills-systems-tab"
+        tabindex="0">...</div>
+    </div>
+  </div>
+
+  <span class="badge text-bg-primary">Primary</span>
+  <span class="badge text-bg-secondary">Secondary</span>
+  <span class="badge text-bg-success">Success</span>
+  <span class="badge text-bg-danger">Danger</span>
+  <span class="badge text-bg-warning">Warning</span>
+  <span class="badge text-bg-info">Info</span>
+  <span class="badge text-bg-light">Light</span>
+  <span class="badge text-bg-dark">Dark</span>
+
+  <div id="editmirror"></div>
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script type="module" src="public/js/main.mjs"></script>
+</body>
+
+</html>

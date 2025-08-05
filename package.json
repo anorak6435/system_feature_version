@@ -1,0 +1,28 @@
+{
+  "name": "system_feature_version",
+  "version": "1.0.0",
+  "description": "This project provides the frontend to the api repository (api-system-feature-version)",
+  "source": "public/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node server.js",
+    "monitor": "nodemon server.js",
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@codemirror/lang-html": "^6.4.9",
+    "@codemirror/lang-javascript": "^6.2.4",
+    "@codemirror/lang-python": "^6.2.1",
+    "codemirror": "^6.0.1",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "vite": "^6.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "parcel": "^2.15.2"
+  }
+}
